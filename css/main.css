@@ -395,3 +395,90 @@ img {
           clip-path: inset(50%);
   margin: -1px;
 }
+
+.logo-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.logo {
+  display: block;
+  width: 176px;
+  height: 52px;
+}
+
+@media only screen and (max-width: 650px) {
+  .logo {
+    width: 100px;
+    height: 34px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    width: 80px;
+    height: 24px;
+  }
+}
+
+.header {
+  background-color: #1B2330;
+}
+
+.header__inner {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__item {
+  margin-right: 57px;
+}
+
+.navbar__link {
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+}
+
+.navbar__link:hover {
+  border-bottom: 1px solid white;
+}
+
+@media only screen and (max-width: 650px) {
+  .navbar__item {
+    margin-right: 32px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .navbar__item {
+    margin-right: 24px;
+  }
+  .navbar__link {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
