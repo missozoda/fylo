@@ -39,7 +39,7 @@
   text-decoration: none;
   font-size: 16px;
   line-height: 19px;
-  color: #FFFFFF;
+  color: rgb(255, 255, 255);
 }
 
 
@@ -47,6 +47,10 @@
 @include breakpoint-down(650px) {
   .navbar__item{
     margin-right: 32px;
+  }
+
+  .footer__nav-item {
+    margin-bottom: 14px;
   }
 }
 
